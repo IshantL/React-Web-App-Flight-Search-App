@@ -1,0 +1,40 @@
+html {
+  background-color:#e6eeee;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;    
+}
+
+.app {
+  width: 100%;
+}
+
+.app__content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.search__box {
+  background: #ffa335;
+  opacity: 0.85;
+}
+
+.block {
+  display: block !important;
+}
+
+@media only screen 
+  and (min-device-width: 250px) 
+  and (max-device-width: 480px) {
+  .app__content {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .app__content {
+    display: block;
+  }
+}
+
